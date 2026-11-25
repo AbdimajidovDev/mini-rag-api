@@ -1,5 +1,4 @@
 # Byte-compiled / optimized / DLL files
-__pycache__/
 *.py[codz]
 *$py.class
 
@@ -49,7 +48,6 @@ coverage.xml
 *.py.cover
 *.lcov
 .hypothesis/
-.pytest_cache/
 cover/
 
 # Translations
@@ -221,3 +219,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Virtual environments
+.venv*/
+
+# IDE
+.idea/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Test cache
+.pytest_cache/
